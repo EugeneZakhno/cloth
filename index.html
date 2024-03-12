@@ -15,6 +15,7 @@
       <!-- bootstrap css -->
       <link rel="stylesheet" href="css/bootstrap.min.css">
       <!-- style css -->
+      <link rel="stylesheet" href="main.css">
       <link rel="stylesheet" href="css/style.css">
       <!-- Responsive-->
       <link rel="stylesheet" href="css/responsive.css">
@@ -28,6 +29,7 @@
       <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+      <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
    </head>
    <!-- body -->
    <body class="main-layout">
@@ -93,7 +95,7 @@
                      <div class="col-md-4">
                         <ul class="right_icon d_none1">
                            <li><a href="#"><img src="images/shopping.png" alt="#"/></a> </li>
-                           <a href="#" class="order">Order Now</a> 
+                           <a href="#" class="order">Order Now</a>
                         </ul>
                      </div>
                   </div>
@@ -222,85 +224,95 @@
             </div>
             <div class="row">
             <div class="product_main">
-             
-                  <div class="project_box ">
-                     <div class="dark_white_bg" ><img  src="images/shoes1.png" alt="#"/></div>
+
+                  <div class="project_box">
+                     <model-viewer src="home_v16compressed.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="1" camera-orbit="111.6deg 91.51deg 31.23m" field-of-view="20.11deg" auto-rotate>
+                        <div class="progress-bar hide" slot="progress-bar">
+                           <div class="update-bar"></div>
+                        </div>
+                        <button slot="ar-button" id="ar-button">
+                           View in your space
+                        </button>
+                        <div id="ar-prompt">
+                           <img src="https://modelviewer.dev/shared-assets/icons/hand.png" alt="blank">
+                        </div>
+                     </model-viewer>
                      <h3>Short Openwork Cardigan $120.00</h3>
                   </div>
-            
-             
+
+
                   <div class="project_box ">
                      <div class="dark_white_bg" ><img  src="images/shoes2.png" alt="#"/></div>
                      <h3 >Short Openwork Cardigan $120.00</h3>
                   </div>
-               
+
                   <div class="project_box">
                      <div class="dark_white_bg" ><img  src="images/shoes3.png" alt="#"/></div>
                      <h3>Short Openwork Cardigan $120.00</h3>
                   </div>
-              
+
                   <div class="project_box">
                      <div class="dark_white_bg" ><img  src="images/shoes4.png" alt="#"/></div>
                      <h3>Short Openwork Cardigan $120.00</h3>
                   </div>
-              
+
                   <div class="project_box">
                      <div class="dark_white_bg" ><img  src="images/shoes5.png" alt="#"/></div>
                      <h3>Short Openwork Cardigan $120.00</h3>
                   </div>
-              
-            
+
+
                   <div class="project_box ">
                      <div class="dark_white_bg" ><img  src="images/tisat1.png" alt="#"/></div>
                      <h3>Short Openwork Cardigan $120.00</h3>
                   </div>
-              
+
                   <div class="project_box ">
                      <div class="dark_white_bg" ><img  src="images/tisat2.png" alt="#"/></div>
                      <h3 >Short Openwork Cardigan $120.00</h3>
                   </div>
-               
+
                   <div class="project_box">
                      <div class="dark_white_bg" ><img  src="images/tisat3.png" alt="#"/></div>
                      <h3>Short Openwork Cardigan $120.00</h3>
                   </div>
-               
+
                   <div class="project_box">
                      <div class="dark_white_bg" ><img  src="images/tisat4.png" alt="#"/></div>
                      <h3>Short Openwork Cardigan $120.00</h3>
                   </div>
-               
+
                   <div class="project_box">
                      <div class="dark_white_bg" ><img  src="images/tisat5.png" alt="#"/></div>
                      <h3>Short Openwork Cardigan $120.00</h3>
                   </div>
-               
-            
+
+
                   <div class="project_box ">
                      <div class="dark_white_bg" ><img  src="images/mix1.png" alt="#"/></div>
                      <h3>Short Openwork Cardigan $120.00</h3>
                   </div>
-               
+
                   <div class="project_box ">
                      <div class="dark_white_bg" ><img  src="images/mix2.png" alt="#"/></div>
                      <h3 >Short Openwork Cardigan $120.00</h3>
                   </div>
-               
+
                   <div class="project_box">
                      <div class="dark_white_bg" ><img  src="images/mix3.png" alt="#"/></div>
                      <h3>Short Openwork Cardigan $120.00</h3>
                   </div>
-              
+
                   <div class="project_box">
                      <div class="dark_white_bg" ><img  src="images/mix4.png" alt="#"/></div>
                      <h3>Short Openwork Cardigan $120.00</h3>
                   </div>
-               
+
                   <div class="project_box">
                      <div class="dark_white_bg" ><img  src="images/mix5.png" alt="#"/></div>
                      <h3>Short Openwork Cardigan $120.00</h3>
                   </div>
-              
+
                <div class="col-md-12">
                   <a class="read_more" href="#">See More</a>
                </div>
@@ -354,7 +366,7 @@
                      <div class="col-md-7">
                         <div class="news_text">
                            <h3>Specimen book. It has survived not only five</h3>
-                           <span> July 2024</span> 
+                           <span> July 2024</span>
                            <div class="date_like">
                               <span>Like </span><span class="pad_le">Comment</span>
                            </div>
@@ -373,7 +385,7 @@
                      <div class="col-md-7">
                         <div class="news_text">
                            <h3>Specimen book. It has survived not only five</h3>
-                           <span> July 2024</span> 
+                           <span> July 2024</span>
                            <div class="date_like">
                               <span>Like </span><span class="pad_le">Comment</span>
                            </div>
@@ -481,6 +493,7 @@
       <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
+      <script src="three.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r123/three.min.js"></script>
       <script> src="https://cdn.rawgit.com/mrdoob/three.js/master/examples/js/loaders/GLTFLoader.js"></script>
               <script>
