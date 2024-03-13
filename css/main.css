@@ -1,0 +1,36 @@
+/* Сброс отступов */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Скрываем значок мобильного телефона */
+#ar-prompt {
+    display: none;
+}
+
+/* Делаем 3D плеер на весь браузер */
+model-viewer {
+    height: 100%;
+    width: 100%;
+}
+.hoodie-green {
+    height: 256px;
+    width: 100%;
+    z-index: 2;
+}
+.snickers-red {
+    height: 256px;
+    width: 100%;
+    z-index: 2;
+}
+
+.dress-red {
+    position: absolute;
+    left: 1000px;
+    top: 50px;
+    height: 1200px;
+    width: 300px;
+    z-index: 1;
+}
