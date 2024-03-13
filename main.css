@@ -12,6 +12,15 @@
 
 /* Делаем 3D плеер на весь браузер */
 model-viewer {
-    height: 256px;
+    height: 700px;
     width: 100%;
+}
+
+.dress-red {
+    position: absolute;
+    left: 1050px;
+    top: 300px;
+    height: 1200px;
+    width: 300px;
+    z-index: 1;
 }
