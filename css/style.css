@@ -291,7 +291,7 @@ ul.social_icon li a {
 }
 
 ul.social_icon li a:hover {
-     background: #f2c119;
+     background: #f21932;
      color: #fff;
 }
 
@@ -405,7 +405,7 @@ ul.right_icon li img {
 }
 
 .order:hover {
-     background-color: #f2c119;
+     background-color: #f21920;
 }
 
 
@@ -431,14 +431,14 @@ ul.right_icon li img {
 
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
 .navigation.navbar-dark .navbar-nav .nav-link:hover {
-     background-color: #f2c119;
+     background-color: #f21941;
 }
 
 .navigation.navbar-dark .navbar-nav .active>.nav-link,
 .navigation.navbar-dark .navbar-nav .nav-link.active,
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show>.nav-link {
-     background-color: #f2c119;
+     background-color: #f2197b;
 }
 
 .navbar-expand-md .navbar-nav {
@@ -499,7 +499,7 @@ position: absolute;
 }
 
 .text-bg h1 {
-     color: #f2c119;
+     color: #f21965;
      font-size: 116px;
      line-height: 120px;
      padding-bottom: 50px;
@@ -524,7 +524,7 @@ position: absolute;
 }
 
 .text-bg .read_more:hover {
-     background: #fcc10e;
+     background: #fc0e46;
      color: #000 !important;
 }
 
@@ -592,7 +592,7 @@ position: absolute;
 }
 
 .yellow_bg {
-     background: #f2c119;
+     background: #f21965;
 }
 
 .six_box .six_probpx {
@@ -637,7 +637,7 @@ position: absolute;
 .project .titlepage h2 {
      margin-bottom: 40px;
      padding-bottom: 10px;
-     border-bottom: #f2c119 solid 5px;
+     border-bottom: #f2195a solid 5px;
 }
 
 .project .titlepage p {
@@ -682,7 +682,7 @@ margin: 0 15px 20px 15px;
 }
 
 .project .read_more:hover {
-     background-color: #f2c119;
+     background-color: #f21965;
 }
 
 
@@ -709,7 +709,7 @@ margin: 0 15px 20px 15px;
 .news .titlepage h2 {
      margin-bottom: 15px;
      padding-bottom: 10px;
-     border-bottom: #f2c119 solid 5px;
+     border-bottom: #f21932 solid 5px;
 }
 
 .margin_top40 {
@@ -732,7 +732,7 @@ margin: 0 15px 20px 15px;
 }
 
 .news_text span {
-     border-bottom: #f2c119 solid 1px;
+     border-bottom: #f21932 solid 1px;
      padding-bottom: 4px;
      color: #141414;
      font-size: 15px;
@@ -798,7 +798,7 @@ margin: 0 15px 20px 15px;
 }
 
 .news_form .sumbit:hover {
-     background-color: #f2c119;
+     background-color: #f21941;
 }
 
 
@@ -883,7 +883,7 @@ margin: 0 15px 20px 15px;
 }
 
 .copyright a:hover {
-     color: #f9bf16;
+     color: #f91630;
 }
 
 
@@ -897,7 +897,7 @@ margin: 0 15px 20px 15px;
 }
 
 .blue_bg {
-     background-color: #f3a20d;
+     background-color: #f30d2f;
      padding: 35px 0;
 }
 
@@ -940,7 +940,7 @@ margin: 0 15px 20px 15px;
 }
 
 .about_text .read_more:hover {
-     background: #f2c119;
+     background: #f2193a;
 }
 
 
@@ -1002,7 +1002,7 @@ margin: 0 15px 20px 15px;
      font-size: 17px;
      font-weight: normal;
      padding: 0 15px;
-     box-shadow: 0 0 5px rgba(243, 195, 30, 0.5);
+     box-shadow: 0 0 5px rgba(243, 30, 183, 0.5);
 }
 
 .main_form .contactusmess {
@@ -1016,7 +1016,7 @@ margin: 0 15px 20px 15px;
      color: #183661;
      font-size: 17px;
      font-weight: normal;
-     box-shadow: 0 0 5px rgba(243, 195, 30, 0.5);
+     box-shadow: 0 0 5px rgba(243, 30, 144, 0.5);
 }
 
 .send_btn {
@@ -1032,7 +1032,7 @@ margin: 0 15px 20px 15px;
 }
 
 .send_btn:hover {
-     background: #f2c119;
+     background: #f21941;
      transition: ease-in all 0.5s;
 }
 
