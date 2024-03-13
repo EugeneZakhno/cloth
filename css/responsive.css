@@ -179,14 +179,14 @@
     }
     .navigation.navbar-dark .navbar-nav .nav-link:focus,
     .navigation.navbar-dark .navbar-nav .nav-link:hover {
-        color: #f2c119;
+        color: #f2193a;
         background-color: inherit;
     }
     .navigation.navbar-dark .navbar-nav .active>.nav-link,
     .navigation.navbar-dark .navbar-nav .nav-link.active,
     .navigation.navbar-dark .navbar-nav .nav-link.show,
     .navigation.navbar-dark .navbar-nav .show>.nav-link {
-        color: #f2c119;
+        color: #f2194c;
         background-color: inherit;
     }
     .navigation.navbar-dark .navbar-toggler {
@@ -219,7 +219,6 @@
         font-size: 50px;
         padding-bottom: 20px;
         line-height: 66px;
-        px;
     }
     .text-bg p {
         line-height: 30px;
@@ -287,14 +286,14 @@
     }
     .navigation.navbar-dark .navbar-nav .nav-link:focus,
     .navigation.navbar-dark .navbar-nav .nav-link:hover {
-        color: #f2c119;
+        color: #f2195a;
         background-color: inherit;
     }
     .navigation.navbar-dark .navbar-nav .active>.nav-link,
     .navigation.navbar-dark .navbar-nav .nav-link.active,
     .navigation.navbar-dark .navbar-nav .nav-link.show,
     .navigation.navbar-dark .navbar-nav .show>.nav-link {
-        color: #f2c119;
+        color: #f2193a;
         background-color: inherit;
     }
     .navigation.navbar-dark .navbar-toggler {
