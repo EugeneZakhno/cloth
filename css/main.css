@@ -28,8 +28,8 @@ model-viewer {
 
 .dress-red {
     position: absolute;
-    left: 1000px;
-    top: 1px;
+    left: 950px;
+    top: -20px;
     height: 1200px;
     width: 300px;
     z-index: 1;
